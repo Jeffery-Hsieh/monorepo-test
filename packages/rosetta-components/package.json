@@ -1,0 +1,67 @@
+{
+  "name": "@rosetta-ai/rosetta-components",
+  "version": "1.0.1",
+  "description": "Rosetta-components is a React component library which provides developers with effecient and consistent way to create products.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "design-system",
+    "react-components",
+    "chakra-ui"
+  ],
+  "author": "Jeffery-Hsieh <jefferyhsieh1996@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosetta-ai/design-system-rosetta.ai",
+    "directory": "packages/rosetta-components"
+  },
+  "scripts": {
+    "gen:theme-typings": "chakra-cli tokens src/provider/defaultTheme.ts",
+    "postinstall": "yarn gen:theme-typings",
+    "start:storybook": "start-storybook -p 6006",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rollup -c",
+    "build:storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@chakra-ui/cli": "^1.9.0",
+    "@chakra-ui/react": "1.8.8",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.11",
+    "@types/ramda": "^0.28.14",
+    "@types/react": "17.0.2",
+    "babel-loader": "^8.2.4",
+    "chakra-paginator": "^0.7.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rollup": "^2.70.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-visualizer": "^5.6.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
+    "react-icomoon": "^2.5.3"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

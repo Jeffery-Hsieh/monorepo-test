@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {},
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "components": "yarn workspace @rosetta-ai/rosetta-components",
+    "start:storybook": "yarn components start:storybook",
+    "build": "yarn components build",
+    "build:storybook": "yarn components build:storybook",
+    "release": "yarn components publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.23.0"
+  }
+}

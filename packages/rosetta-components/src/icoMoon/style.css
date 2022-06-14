@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?toevfg');
+  src:  url('fonts/icomoon.eot?toevfg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?toevfg') format('truetype'),
+    url('fonts/icomoon.woff?toevfg') format('woff'),
+    url('fonts/icomoon.svg?toevfg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-minus:before {
+  content: "\e94d";
+  color: #544d4d;
+}
+.icomoon-add:before {
+  content: "\1f322";
+}
+.icomoon-ban-circle:before {
+  content: "\e901";
+}
+.icomoon-cross:before {
+  content: "\e902";
+}
+.icomoon-delete:before {
+  content: "\e903";
+}
+.icomoon-drag-handle-vertical:before {
+  content: "\e904";
+}
+.icomoon-duplicate:before {
+  content: "\e905";
+}
+.icomoon-edit:before {
+  content: "\e906";
+}
+.icomoon-endorsed:before {
+  content: "\e907";
+}
+.icomoon-filter-list:before {
+  content: "\e908";
+}
+.icomoon-filter:before {
+  content: "\e909";
+}
+.icomoon-plus:before {
+  content: "\e90b";
+}
+.icomoon-remove:before {
+  content: "\e90c";
+}
+.icomoon-search:before {
+  content: "\e90d";
+}
+.icomoon-tag:before {
+  content: "\e90e";
+}
+.icomoon-tick-circle:before {
+  content: "\e90f";
+}
+.icomoon-tick:before {
+  content: "\e910";
+}
+.icomoon-trash:before {
+  content: "\e911";
+}
+.icomoon-arrow-left:before {
+  content: "\e912";
+}
+.icomoon-arrow-right:before {
+  content: "\e913";
+}
+.icomoon-calendar:before {
+  content: "\e914";
+}
+.icomoon-caret-down:before {
+  content: "\e915";
+}
+.icomoon-chevron-down:before {
+  content: "\e916";
+}
+.icomoon-chevron-left:before {
+  content: "\e917";
+}
+.icomoon-chevron-right:before {
+  content: "\e918";
+}
+.icomoon-chevron-up:before {
+  content: "\e919";
+}
+.icomoon-circle-arrow-right:before {
+  content: "\e91a";
+}
+.icomoon-control:before {
+  content: "\e91b";
+}
+.icomoon-dashboard:before {
+  content: "\e900";
+}
+.icomoon-envelope:before {
+  content: "\e91d";
+}
+.icomoon-help:before {
+  content: "\e90a";
+}
+.icomoon-error:before {
+  content: "\e91c";
+}
+.icomoon-eye-off:before {
+  content: "\e91f";
+}
+.icomoon-eye-open:before {
+  content: "\e920";
+}
+.icomoon-info-sign:before {
+  content: "\e91e";
+}
+.icomoon-issue:before {
+  content: "\e921";
+}
+.icomoon-menu:before {
+  content: "\e923";
+}
+.icomoon-notifications:before {
+  content: "\e924";
+}
+.icomoon-person:before {
+  content: "\e925";
+}
+.icomoon-thumbs-up:before {
+  content: "\e926";
+}
+.icomoon-time:before {
+  content: "\e927";
+}
+.icomoon-user:before {
+  content: "\e928";
+}
+.icomoon-warning-sign:before {
+  content: "\e922";
+}
+.icomoon-flame:before {
+  content: "\e92b";
+}
+.icomoon-globe-network:before {
+  content: "\e92c";
+}
+.icomoon-heart:before {
+  content: "\e92d";
+}
+.icomoon-id-number:before {
+  content: "\e92e";
+}
+.icomoon-lightbulb:before {
+  content: "\e92f";
+}
+.icomoon-shopping-cart:before {
+  content: "\e930";
+}
+.icomoon-timeline-bar-chart:before {
+  content: "\e931";
+}
+.icomoon-new-grid-item:before {
+  content: "\e932";
+}
+.icomoon-desktop:before {
+  content: "\e941";
+}
+.icomoon-mobile-phone:before {
+  content: "\e929";
+}
+.icomoon-chart:before {
+  content: "\e933";
+}
+.icomoon-logout:before {
+  content: "\e934";
+}
+.icomoon-crown:before {
+  content: "\e935";
+}
+.icomoon-lock:before {
+  content: "\e936";
+}
+.icomoon-undo:before {
+  content: "\e92a";
+}
+.icomoon-redo:before {
+  content: "\e937";
+}
+.icomoon-align-left:before {
+  content: "\e938";
+}
+.icomoon-align-center:before {
+  content: "\e939";
+}
+.icomoon-align-right:before {
+  content: "\e93a";
+}
+.icomoon-alignment-vertical-center:before {
+  content: "\e93b";
+}
+.icomoon-alignment-horizontal:before {
+  content: "\e93c";
+}
+.icomoon-media:before {
+  content: "\e93d";
+}
+.icomoon-floppy-disk:before {
+  content: "\e93e";
+}
+.icomoon-double-chevron-left:before {
+  content: "\e93f";
+}
+.icomoon-double-chevron-right:before {
+  content: "\e940";
+}
+.icomoon-data-timeline-area-chart:before {
+  content: "\e942";
+}
+.icomoon-table-list-detail-view:before {
+  content: "\e943";
+}
+.icomoon-annotation:before {
+  content: "\e944";
+}
+.icomoon-manual:before {
+  content: "\e945";
+}
+.icomoon-share:before {
+  content: "\e946";
+}
+.icomoon-geolocation:before {
+  content: "\e948";
+}
+.icomoon-credit-card:before {
+  content: "\e947";
+}
+.icomoon-history:before {
+  content: "\e949";
+}
+.icomoon-wrench:before {
+  content: "\e94a";
+}
+.icomoon-settings:before {
+  content: "\e94b";
+}
+.icomoon-saved:before {
+  content: "\e94c";
+  color: #544d4d;
+}
